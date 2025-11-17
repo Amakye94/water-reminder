@@ -1,0 +1,10 @@
+/target/
+/water_log.txt
+*.log
+*.tmp
+*.swp
+*.lock
+.DS_Store
+Thumbs.db
+.vscode/
+rustfmt.toml
