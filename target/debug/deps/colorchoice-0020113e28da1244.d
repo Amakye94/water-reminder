@@ -1,0 +1,7 @@
+C:\Users\amaky\water-reminder\target\debug\deps\libcolorchoice-0020113e28da1244.rmeta: C:\Users\amaky\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colorchoice-1.0.4\src/lib.rs
+
+C:\Users\amaky\water-reminder\target\debug\deps\libcolorchoice-0020113e28da1244.rlib: C:\Users\amaky\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colorchoice-1.0.4\src/lib.rs
+
+C:\Users\amaky\water-reminder\target\debug\deps\colorchoice-0020113e28da1244.d: C:\Users\amaky\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colorchoice-1.0.4\src/lib.rs
+
+C:\Users\amaky\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colorchoice-1.0.4\src/lib.rs:

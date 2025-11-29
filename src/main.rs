@@ -1,6 +1,6 @@
 use clap::{Parser, Subcommand};
 use chrono::Local;
-use std::fs::{self, OpenOptions};
+use std::fs::OpenOptions;
 use std::io::{Read, Write};
 
 const DAILY_GOAL: i32 = 2000; // 2000 ml = 2 liters
@@ -22,7 +22,7 @@ enum Command {
     /// Show daily progress
     Status,
 
-    /// Reset today’s log
+    /// Reset today's log
     Reset,
 }
 
@@ -66,7 +66,7 @@ fn main() {
             println!("🎯 Goal: {} ml", DAILY_GOAL);
 
             if total >= DAILY_GOAL {
-                println!("🎉 You’ve reached your daily goal!");
+                println!("🎉 You've reached your daily goal!");
             } else {
                 println!(
                     "➡ You need {} ml more.",
