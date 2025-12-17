@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Water Reminder — Rust CLI Automation Tool</title>
+  <meta name="description" content="A lightweight Rust CLI tool to log water intake, check progress, and stay hydrated." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 32px 18px; }
+    header { padding: 28px 0 10px; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    p { line-height: 1.55; }
+    .card { border: 1px solid #e6e6e6; border-radius: 14px; padding: 18px; margin: 16px 0; }
+    pre { overflow: auto; padding: 14px; border-radius: 12px; border: 1px solid #eee; }
+    a { text-decoration: none; }
+    .btn { display: inline-block; padding: 10px 14px; border-radius: 12px; border: 1px solid #e6e6e6; margin-right: 10px; }
+    footer { margin-top: 28px; font-size: 14px; color: #444; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Water Reminder</h1>
+      <p>
+        A personal automation project: a <strong>Rust CLI tool</strong> to track
+        daily water intake (log, status, reset) with local file storage.
+      </p>
+      <p>
+        <a class="btn" href="https://github.com/Amakye94/water-reminder">
+          GitHub Repository
+        </a>
+      </p>
+    </header>
+
+    <div class="card">
+      <h2>Features</h2>
+      <ul>
+        <li>Log water intake in milliliters</li>
+        <li>Check daily progress against a goal</li>
+        <li>Reset the daily log</li>
+        <li>Offline, fast, and simple</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Build & Run</h2>
+      <pre><code>git clone https://github.com/Amakye94/water-reminder.git
+cd water-reminder
+cargo build --release</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>Usage</h2>
+      <pre><code>water-reminder log 250
+water-reminder status
+water-reminder reset</code></pre>
+    </div>
+
+    <footer>
+      <p>Created for a personal automation assignment (Rust + CLI + Linux).</p>
+    </footer>
+  </div>
+</body>
+</html>
